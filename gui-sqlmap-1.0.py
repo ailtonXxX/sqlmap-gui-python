@@ -281,7 +281,7 @@ def mostrar_sobre():
     ttk.Label(w, text=idiomas[idioma_atual]["uso"], wraplength=400, justify="center").pack(pady=5)
     ttk.Separator(w).pack(fill="x", pady=10)
     ttk.Label(w, text="Open Source Project").pack(pady=3)
-    ttk.Button(w, text="GitHub", command=lambda: webbrowser.open("https://github.com/")).pack(pady=3)
+    ttk.Button(w, text="GitHub", command=lambda: webbrowser.open("https://github.com/ailtonXxX")).pack(pady=3)
     ttk.Button(w, text="E-mail", command=lambda: webbrowser.open("ailton.martins.031227@gmail.com")).pack(pady=3)
 
 # ======================================================
